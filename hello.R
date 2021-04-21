@@ -7,6 +7,8 @@ say_hello <- function(language) {
     message("hola")
   } else if (language == "welsh") {
     message("helo")
+  } else if (language == "russian") {
+    message("privjet")
   } else {
     stop("I can't say hello in ", language)
   }
